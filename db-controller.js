@@ -26,7 +26,7 @@ exports.getAllUsers = function(req,res){
             res.json({data:err,msg:"smww",status:1})
         }
             else{
-            Response.json({data:data,msg:"User retrieved",status:200})
+            res.json({data:data,msg:"User retrieved",status:200})
         }
         
     
