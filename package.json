@@ -1,0 +1,27 @@
+{
+  "name": "mongoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./db-index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node db-index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShreyaAcharya24/MEAN_app.git"
+  },
+  "keywords": [
+    "heroku",
+    "example"
+  ],
+  "author": "Shreya Acharya",
+  "license": "ISC",
+  "engines": {
+    "node": "16.13.0",
+    "npm":"8.1.0"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
