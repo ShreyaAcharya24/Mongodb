@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"node db-index.js"
   },
+
+  "engines": {
+    "node":"16.13.0",
+    "npm":"8.1.0"
+  },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/ShreyaAcharya24/MEAN_app.git"
@@ -17,11 +23,10 @@
   ],
   "author": "Shreya Acharya",
   "license": "ISC",
-  "engines": {
-    "node": "16.13.0",
-    "npm":"8.1.0"
-  },
+
   "dependencies": {
     "express": "^4.17.3"
   }
+
+
 }
